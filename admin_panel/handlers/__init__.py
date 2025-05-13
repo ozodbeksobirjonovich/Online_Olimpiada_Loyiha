@@ -1,0 +1,1 @@
+from . import start, registration, router, personal_cabinet

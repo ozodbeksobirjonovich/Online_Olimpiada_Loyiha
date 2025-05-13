@@ -1,0 +1,14 @@
+{       
+   "apps":            
+      [{
+        "name": "bot",          
+        "script": "manage.py",
+        "args": ["runbot"],
+        "exec_mode": "fork", 
+        "instances": "1", 
+        "wait_ready": false, 
+        "autorestart": true, 
+        "max_restarts": 64, 
+        "interpreter" : "python3" 
+      }] 
+}
